@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<head>
+<title>SAYED WEBSITE</title>
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--[if lt IE 9]><link href="css/ie8.css" rel="stylesheet"><![endif]-->
+	<!--[if lt IE 8]><link href="css/ie7.css" rel="stylesheet"><![endif]-->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="assets/jquery.min.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="assets/circle.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/demo.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <script type="text/javascript" src="assets/circle.js"></script>
+</head>
+<body>
+<!--header-->
+		<header>
+			<!--logo-->
+			<div class="header-part1">
+				<div class="logo">
+				<img src="img/pie-chart.png" alt="Business Icon" />
+				</div>
+				
+			</div>
+			<div class="menu-bar">
+				<nav>
+					<ul class="ul1">
+						<li class="li1"><a href="#main-slider" class="active">HOME</a></li>
+						<li class="li1"><a href="#about-section">ABOUT</a></li>
+						<li class="li1"><a href="#service-section">SERVICES</a></li>
+						<li class="li1"><a href="#feature-section">FEATURES</a></li>
+						<li class="li1"><a href="#portfolio">PORTFOLIO</a></li>
+						<li class="li1"><a href="#member">TEAM</a></li>
+						<li class="li1"><a href="#prices-section">PRICES</a></li>
+						<li class="li1"><a href="#contact-main">CONTACT</a></li>
+					</ul>
+				</nav>
+		    </div>
+			<div class="clear"></div>
+		</header>
+		<!-- slider -->
+		<section id="main-slider">	
+		<div class="stage">
+		<div id="SLDR-ONE" class="sldr">
+			<ul class="animate">
+			<li class="elmnt-one"><div class="skew"><div class="wrap"><img src="img/apss-website-design-1.jpg" width="1000" height="500"></div></div></li>
+			<li class="elmnt-two"><div class="skew"><div class="wrap"><img src="img/What-Is-The-Agency-Of-The-Future.jpg" width="1000" height="500"></div></div></li>
+			<li class="elmnt-three"><div class="skew"><div class="wrap"><img src="img/apss-website-design-1.jpg" width="1000" height="500"></div></div></li>
+			<li class="elmnt-four"><div class="skew"><div class="wrap"><img src="img/What-Is-The-Agency-Of-The-Future.jpg" width="1000" height="500"></div></div></li>
+		</ul>
+		</div>
+		<div class="clear"></div>
+		<!--
+		<div class="captions">
+			<div class="focalPoint"><p><small>Lake</small></p></div>
+			<div><p><small>Mountain Range</small></p></div>
+			<div><p><small>Mt. Fuji</small></p></div>
+			<div><p><small>Pink Forest</small></p></div>
+		</div>
+
+		<ul class="selectors">
+			<li class="focalPoint"><a href="">•</a></li><li><a href="">•</a></li><li><a href="">•</a></li><li><a href="">•</a></li>
+		</ul>
+		-->
+		<!--
+		<button class="sldr-prv sldr-nav prev">Prev</button>
+		<button class="sldr-nxt sldr-nav next">Next</button>
+		-->
+		<div class="clear"></div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		</div>
+		<!--<script src="js/jquery-1.10.2.min.js"></script> -->
+		<script src="js/jquery.sldr.js"></script>
+		<script>
+		$( window ).load( function() {
+		$( '.sldr' ).each( function() {
+			var th = $( this );
+			th.sldr({
+			focalClass    : 'focalPoint',
+			offset        : th.width() / 2,
+			sldrWidth     : 'responsive',
+			nextSlide     : th.nextAll( '.sldr-nav.next:first' ),
+			previousSlide : th.nextAll( '.sldr-nav.prev:first' ),
+			selectors     : th.nextAll( '.selectors:first' ).find( 'li' ),
+			toggle        : th.nextAll( '.captions:first' ).find( 'div' ),
+			sldrInit      : sliderInit,
+			sldrStart     : slideStart,
+			sldrComplete  : slideComplete,
+			sldrLoaded    : sliderLoaded,
+			sldrAuto      : true,
+			sldrTime      : 5000,
+			hasChange     : true
+		});
+	});
+
+});
+		function sliderInit( args ) {
+		}
+		function slideLoaded( args ) {
+		}
+		function sliderLoaded( args ) {
+		}
+		function slideStart( args ) {
+		}
+		function slideComplete( args ) {
+		}
+		</script>
+	</section>
+	<!-- About -->
+	<section id="about-section">
+		<h2>ABOUT US</h2>
+		<p>Simple, Reliable and Awesome.</p>
+		<div class="about-img">
+			<img src="img/imac-3.jpg" alt="about-image" />
+		</div>
+		<div class="about1">
+				<img src="img/bootstrap.PNG" alt="Bootstrap" />
+				<h4>BOOTSTRAP 3.X</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+				sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+				sed do eiusmod tempor.</p>
+			</div>
+			<div class="about2">
+				<img src="img/fuly responsive.PNG" alt="Responsive" />
+				<h4>FULLY RESPONSIVE</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+				sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+				sed do eiusmod tempor.</p>
+			</div>
+			<div class="about3">
+				<img src="img/clean code.PNG" alt="Clean Code" />
+				<h4>CLEAN CODE</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+				sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+				sed do eiusmod tempor.</p>
+			</div>
+		<div class="clear1">
+		</div>
+	</section>
+	<!--who we are-->
+	<section id="mission-tab">
+		<div class="mission-text">
+		    <div class="who-text">
+			<div class="who-img">
+			<img src="img/who.PNG" alt="who">
+			</div>
+			<div class="who-button">
+			<button class="btn-who" type="submit"><span class="span1">WHO WE ARE?</span></button>
+			</div>
+			<div class="p1">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+			labore et dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			sed do eiusmod tempor incididunt labore et dolore.</div>
+			<div class="clear1">
+		    </div>
+			</div>
+			<div class="our-vision">
+			<div class="vision-img">
+			<img src="img/our-mission.PNG" alt="who">
+			</div>
+			<div class="vision-button">
+			<button class="btn-vision" type="submit"><span class="span1">OUR VISION</span></button>
+			</div>
+			</div>
+			<div class="our-mission">
+			<div class="mission-img">
+			<img src="img/our-mission2.PNG" alt="who">
+			</div>
+			<div class="mission-button">
+			<button class="btn-mission" type="submit"><span class="span1">OUR MISSION</span></button>
+			</div>
+			</div>
+ 			<button class="btn-template" type="submit"><span class="span2">GET TEMPLATE</span></button>	
+			<button class="btn-explor" type="submit"><span class="span3">EXPLORE IT</span></button>	
+		</div>
+		<div class="mission-image">
+		<img src="img/people.jpg" alt="people jpg" />
+		</div>
+		<div class="clear1">
+		</div>
+	</section>
+	<section id="progress-bar">
+		<div class="page">
+        <div class="circles-container">
+            <div class="circlebar" data-circle-startTime=0 data-circle-maxValue="76" data-circle-dialWidth=10 data-circle-size="200px" data-circle-type="progress">
+                <div class="loader-bg">
+                    <div class="text">00:00:00</div>
+                </div>
+				<h2 class="graphic-design">Graphic Design</h2>
+            </div>
+			  <div class="circlebar" data-circle-startTime=0 data-circle-maxValue="65" data-circle-dialWidth=10 data-circle-size="200px" data-circle-type="progress">
+                <div class="loader-bg">
+                    <div class="text">00:00:00</div>
+                </div>
+				<h2 class="h21">BRANDING</h2>
+            </div>
+			  <div class="circlebar" data-circle-startTime=0 data-circle-maxValue="92" data-circle-dialWidth=10 data-circle-size="200px" data-circle-type="progress">
+                <div class="loader-bg">
+                    <div class="text">00:00:00</div>
+                </div>
+				<h2 class="h22">HTML</h2>
+            </div>
+			  <div class="circlebar" data-circle-startTime=0 data-circle-maxValue="67" data-circle-dialWidth=10 data-circle-size="200px" data-circle-type="progress">
+                <div class="loader-bg">
+                    <div class="text">00:00:00</div>
+                </div>
+				<h2 class="h23">WORDPRESS</h2>
+            </div>
+        </div>
+        <script>
+        $(document).ready(function() {
+            $("#circle-1").Circlebar({
+                maxValue: 20,
+                fontSize: "14px",
+                triggerPercentage: true
+            });
+            var t2 = new Circlebar({
+                element: ".circle-2",
+                maxValue: 252,
+                dialWidth: 40,
+                fontColor: "#777",
+                fontSize: "30px",
+                skin: "fire",
+                type: "manual"
+            });
+            new Circlebar({
+                element: "#circle-3",
+                maxValue: 230,
+                size: "240px",
+                fontSize: "30px",
+                type: "progress"
+            });
+        });
+        </script>
+	</section>
+	<!--service start -->
+	<section id="service-section">
+		<h2 class="service-h2">Services</h2>
+		<p class="service-p">Simple, Reliable and Awesome.</p>
+		<div class="sercice-section-two">
+		<div class="service-main-part">
+			<div class="bootstrap-part">
+				<img src="img/bootstrap-img.PNG" alt="Bootstrap" />
+				<h4>BOOTSTRAP</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+			<div class="responsive-part">
+				<img src="img/responsive-img.PNG" alt="Responsive" />
+				<h4>RESPONSIVE</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+			<div class="html-part">
+				<img src="img/html-img.PNG" alt="Clean Code" />
+				<h4>HTML5</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+			<div class="css-part">
+				<img src="img/css-img.PNG" alt="Clean Code" />
+				<h4>CSS3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+			<div class="wordpress-part">
+				<img src="img/wordpress-img.PNG" alt="Bootstrap" />
+				<h4>WORDPRESS</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+			<div class="joomla-part">
+				<img src="img/zoomla.PNG" alt="Responsive" />
+				<h4>JOOMLA</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+			<div class="animation-part">
+				<img src="img/animation.PNG" alt="Clean Code" />
+				<h4>ANIMATION</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+			<div class="mobile-app">
+				<img src="img/mobile-img.PNG" alt="Clean Code" />
+				<h4>MOBILE APP</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ametsss.</p>
+			</div>
+		</div>
+		<div class="clear1">
+		</div>
+		</div>
+	</section>
+	<!-- features start -->
+	<section id="feature-section">
+		<h2 class="features-h2">Features</h2>
+		<p class="features-p">Simple, Reliable and Awesome.</p>
+		<div class="features1">
+			<div class="boot-box">
+				<div class="boot-img">
+				<img src="img/bootst.PNG" alt="Bootstrap" />
+				</div>
+				<div class="boot-text">
+				<h4>BOOTSTRAP</h4>
+				</div>
+				<div class="boot-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+			</div>
+			<div class="clean-box">
+				<div class="clean-img">
+				<img src="img/cleani.PNG" alt="Bootstrap" />
+				</div>
+				<div class="clean-text">
+				<h4>CLEAN CODE</h4>
+				</div>
+				<div class="clean-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+			</div>
+			<div class="html-css-box">
+			<div class="html-css-img">
+				<img src="img/htmli.PNG" alt="html" />
+				</div>
+				<div class="html-css-text">
+				<h4>HTML5 & CSS3</h4>
+				</div>
+				<div class="html-css-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="features2">
+			<img src="img/iphone-layer.png" alt="iphone">
+		</div>
+		<div class="features3">
+		<div class="my-place-box">
+			<div class="my-place-img">
+				<img src="img/placi.PNG" alt="html" />
+				</div>
+				<div class="my-place-text">
+				<h4>MY PLACE</h4>
+				</div>
+				<div class="my-place-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+		</div>
+		<div class="media-player-box">
+			<div class="media-player-img">
+				<img src="img/media.PNG" alt="html" />
+				</div>
+				<div class="media-player-text">
+				<h4>MEDIA PLAYER</h4>
+				</div>
+				<div class="media-player-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+		</div>
+		<div class="support-box">
+			<div class="support-img">
+				<img src="img/supporti.PNG" alt="html" />
+				</div>
+				<div class="support-text">
+				<h4>SUPPORT</h4>
+				</div>
+				<div class="support-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+		</div>
+		</div>
+		<div class="clear1">
+		</div>
+	</section>
+	<!-- core features -->
+	<section id="core-features">
+		<div class="core-feature-img">
+			<img src="img/hand-layer.jpg" alt="mobile" />
+		</div>
+		<div class="core-feature2">
+			<div class="core-feature2-h2"<h2>CORE FEATURES</h2></div>
+			<div class="core-feature3">
+				<div class="latest-box">
+					<div class="latest-img">
+					<img src="img/latest-bootstrap.PNG" alt="html" />
+					</div>
+					<div class="latest-text">
+					<h4>BOOTSTRAP LATEST VERSION</h4>
+					<p class="latest-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem </p>
+					</div>
+					<p class="latest-p">ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="latest-html-box">
+					<div class="latest-html-img">
+					<img src="img/html-latest.PNG" alt="html" />
+					</div>
+					<div class="latest-html-text">
+					<h4>HTML5 & CSS3</h4>
+					<p class="latest-html-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem </p>
+					</div>
+					<p class="latest-html-p">ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="simple-clean-box">
+					<div class="simple-clean-img">
+					<img src="img/simple-clean.PNG" alt="html" />
+					</div>
+					<div class="simple-clean-text">
+					<h4>HTML5 & CSS3</h4>
+					<p class="simple-clean-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem </p>
+					</div>
+					<p class="simple-clean-p">ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<button class="btn-portfolio" type="submit"><span class="span3">VIEW PORTFOLIO</span></button>	
+					<button class="btn-support" type="submit"><span class="span2">SUPPORT</span></button>	
+				</div>
+			</div>
+		</div>
+		<div class="clear1">
+		</div>
+	</section>
+			<Section id="work-header">
+				<h1>If you want to tell people the truth, make them laugh, otherwise they'll kill you.</h1>
+				<div class="p5">-- Oscar Wilde --</p>
+				</div>
+	</section>
+	<!--portfolio start-->
+	<section id="portfolio">
+		<h2 class="portfolio-h2">PORTFOLIO</h2>
+		<p class="portfolio-p">Simple, Reliable and Awesome.</p>
+		<div class="portfolio-section-two">
+		<div class="portfolio-image">
+			<div class="portfolio">
+				<img src="img/p_01.jpg" alt="automobile">
+			</div>
+			<div class="portfolio2">
+				<img src="img/p_02.jpg" alt="automobile">
+			</div>
+			<div class="portfolio3">
+				<img src="img/p_03.jpg" alt="automobile">
+			</div>
+			
+			<div class="portfolio4">
+				<img src="img/p_04.jpg" alt="automobile">
+			</div>
+			<div class="portfolio5">
+				<img src="img/p_05.jpg" alt="automobile">
+			</div>
+			<div class="portfolio6">
+				<img src="img/p_06.jpg" alt="automobile">
+			</div>
+			<div class="portfolio7">
+				<img src="img/p_07.jpg" alt="automobile">
+			</div>
+			<div class="portfolio8">
+				<img src="img/p_08.jpg" alt="automobile">
+			</div>
+			<div class="portfolio5">
+				<img src="img/p_09.jpg" alt="automobile">
+			</div>
+			<div class="portfolio6">
+				<img src="img/p_10.jpg" alt="automobile">
+			</div>
+			<div class="portfolio7">
+				<img src="img/p_07.jpg" alt="automobile">
+			</div>
+			<div class="portfolio8">
+				<img src="img/p_12.jpg" alt="automobile">
+			</div>
+		</div>	
+	</section>
+	<!--team -->
+	<section id="member">
+		<h2 class="portfolio-h2">TEAM</h2>
+		<p class="portfolio-p">Simple, Reliable and Awesome.</p>
+		<div class="portfolio-section-two">
+			<div class="member1">
+				<div class="jamie_icon">
+					<div class='icon social fb'><i class='fa fa-facebook'></i></div>
+					<div class='icon social tw'><i class='fa fa-twitter'></i></div>
+					<div class='icon social in'><i class='fa fa-linkedin'></i></div>
+				</div>	
+				<img src="img/img-1.png" alt="JAMIE CATLAHAN" />
+				<p>JAMIE CATLAHAN</p>
+				<p class="shena2">WEB DEVELOPER</p>
+			</div>
+			<div class="member2">
+				<div class="jamie_icon">
+					<div class='icon social fb'><i class='fa fa-facebook'></i></div>
+					<div class='icon social tw'><i class='fa fa-twitter'></i></div>
+					<div class='icon social in'><i class='fa fa-linkedin'></i></div>
+				</div>
+				<img src="img/img-2.png" alt="LISA KUDRO" />
+				<p>LISA KUDRO</p>
+				<p class="shena2">WEB DESIGNER</p>
+			</div>
+			<div class="member3">
+				<div class="jamie_icon">
+					<div class='icon social fb'><i class='fa fa-facebook'></i></div>
+					<div class='icon social tw'><i class='fa fa-twitter'></i></div>
+					<div class='icon social in'><i class='fa fa-linkedin'></i></div>
+				</div>
+				<img src="img/img-3.png" alt="JOHN CLARANCE" />
+				<p>JOHN CLARANCE</p>
+				<p class="shena2">ANDROID DEVELOPER</p>
+			</div>
+			<div class="member4">
+				<div class="jamie_icon">
+					<div class='icon social fb'><i class='fa fa-facebook'></i></div>
+					<div class='icon social tw'><i class='fa fa-twitter'></i></div>
+					<div class='icon social in'><i class='fa fa-linkedin'></i></div>
+				</div>
+				<img src="img/img-4.png" alt="SHEENA MAYA" /><br>
+				<div class="shena1"><p>SHEENA MAYA</p>
+				<p class="shena2">MARKETER</p></div>
+			</div>
+		<div class="clear1">
+		</div>
+	</section>
+	<!--prices-->		
+	<section id="prices-section">
+		<h2 class="prices-section-h2">PRICING TABLE</h2>
+		<p class="prices-section-p">Simple, Reliable and Awesome.</p>
+		<div class="prices-box1">
+			<img src="img/prices1.PNG" alt="price-image">
+		</div>
+		<div class="prices-box2">
+			<img src="img/prices2.PNG" alt="price-image">
+		</div>
+		<div class="prices-box3">
+			<img src="img/prices3.PNG" alt="price-image">
+		</div>
+		<div class="prices-box4">
+			<img src="img/prices4.PNG" alt="price-image">
+		</div>
+	</section>
+	<!-- contact section --> 
+	<!--contact form -->
+	<section id="contact-main">
+		<h2 class="prices-section-h2">GET IN TOUCH</h2>
+		<p class="prices-section-p">For more info and support, contact us!</p>
+		<div class="office-location">
+				<img src="img/office-location.PNG" alt="Bootstrap" />
+				<h4>OFFICE LOCATION</h4>
+				<p>Chittagong, Bangladesh</p>
+		</div>
+		<div class="call-us">
+			<img src="img/call-us.PNG" alt="Responsive" />
+			<h4>CALL US</h4>
+			<p>0-234-985-892</p>
+		</div>
+		<div class="send-email">
+			<img src="img/send-mail.PNG" alt="Clean Code" />
+			<h4>EMAIL ADDRESS</h4>
+			<p>info@shaznuz.com</p>
+		</div>
+		<div class="working-hours">
+			<img src="img/working-hours.PNG" alt="Clean Code" />
+			<h4>WORKING HOURS</h4>
+			<p>Saturday - Thursday 10:00 AM - 5:00 PM</p>
+		</div>
+		<div class="send-your-message"><h4>SEND YOUR MESSAGE HERE</h4></div>
+		<div class="contact-form1">
+			<form action="" method="" enctype="mutlipart/form-data">
+				<p><input type="text" name="yname" placeholder="Enter your Name" a autocomplete="off"></p>
+				<p><input type="email" name="website" placeholder="Enter your email address" required></p>
+				<p><input type="text" name="subject" placeholder="Enter your Subject" required></p>
+		</div>	
+		<div class="contact-form2">
+				<p><textarea class="form-control" rows="3" placeholder="Your Message"></textarea></p>
+				<p><button class="btn btn-default" type="submit">Send Message</button></p>
+		</div>
+            </form>
+		<div class="map-address">	
+		<div id="map"  style="width:100%; margin-top:20px;height:450px;background:yellow"></div>
+			<script>
+				function myMap() {
+				var mapOptions = {
+				center: new google.maps.LatLng(22.341900, 91.815536),
+				zoom: 10,
+				mapTypeId: google.maps.MapTypeId.HYBRID
+					}
+					var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+					}
+					</script>
+				  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAasgJZNaTBlDHVqlARxPAFdXSnhPVxK44&callback=myMap"
+				  type="text/javascript"></script>
+				  <div class="clear1"></div>
+	</section>
+	<!--live update section-->
+	<section id="live-update-section">
+		<h2 class="live-update-section-h2">GET LIVE UPDATES</h2>
+		<p class="live-update-section-p">Simple, Reliable and Awesome.</p>
+		<div class="email-btn"><input type="email" name="website" placeholder="Enter your email address" required></div>
+		<div class="subscribe-btn"><button class="btn-btn-default" type="submit">SUBSCRIBE</button></div>
+		
+		<div class="social-icon">
+				<div class='demopadding'>
+				<div class='icon social fb'><i class='fa fa-facebook'></i></div>
+				<div class='icon social tw'><i class='fa fa-twitter'></i></div>
+				<div class='icon social in'><i class='fa fa-linkedin'></i></div>
+		</div>  
+		</div>
+		<div class="copyright">
+			&copy 2017 Best Store. All rights reserved | Design by SAYED
+		</div>
+	</section>
+
+
+</body>
+</html>
